@@ -13,11 +13,12 @@ packages/
 [Dd]ebug/
 [Rr]elease/
 x64/
-build/
+[Bb]uild/
 [Bb]in/
 [Oo]bj/
 obj.NetCore.Desktop.Free/
 obj.Wpf.Free/
+[Cc]overage/
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
@@ -76,6 +77,8 @@ _TeamCity*
 
 # DotCover is a Code Coverage Tool
 *.dotCover
+
+Coverage/
 
 # NCrunch
 *.ncrunch*

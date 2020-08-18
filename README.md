@@ -1,6 +1,10 @@
 # DevExpress.Mvvm.Free
 DevExpress MVVM Framework is a set of components that simplify the implementation of the Model-View-ViewModel pattern in WPF.
 
+# Forked for CLF usage 
+Main development by DX remains at GitHub. Coverage can be run using :
+_%UserProfile%\.nuget\packages\microsoft.codecoverage\16.6.1\build\netstandard1.0\CodeCoverage\CodeCoverage.exe analyze /output:DynamicCodeCoverage.coveragexml DX.MVVM.Free.CodeCoverage.coverage_
+
 # Documentation
 There are two versions of the DevExpress MVVM Framework:
 * The DevExpress.Mvvm version is included in the DevExpress WPF component suite and designed for use with the DevExpress WPF controls.
